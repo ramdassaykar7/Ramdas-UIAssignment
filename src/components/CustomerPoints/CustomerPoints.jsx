@@ -20,10 +20,10 @@ const CustomerPoints = ({ data }) => {
                     <div key={customerId}>
                         <h3>Customer ID: {customerId}</h3>
                         <p>Total Points: {total}</p>
-                        <ul>
+                        <ul role="list">
                         {/* monthly points for each customer */}
                             {Object.entries(monthly).map(([month, points]) => (
-                                <li key={month}>
+                                <li key={month} role="listitem">
                                     {month}: {points} points
                                 </li>
                             ))}

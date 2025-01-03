@@ -13,11 +13,17 @@ exports[`CustomerPoints Component matches snapshot 1`] = `
       <p>
         Total Points: 150
       </p>
-      <ul>
-        <li>
+      <ul
+        role="list"
+      >
+        <li
+          role="listitem"
+        >
           January: 90 points
         </li>
-        <li>
+        <li
+          role="listitem"
+        >
           February: 60 points
         </li>
       </ul>
@@ -29,11 +35,17 @@ exports[`CustomerPoints Component matches snapshot 1`] = `
       <p>
         Total Points: 85
       </p>
-      <ul>
-        <li>
+      <ul
+        role="list"
+      >
+        <li
+          role="listitem"
+        >
           January: 30 points
         </li>
-        <li>
+        <li
+          role="listitem"
+        >
           March: 55 points
         </li>
       </ul>

@@ -17,8 +17,8 @@ export const calculateRewards = (transactions) => {
     // Initialise customer records if not present
     if (!rewards[customerId]) rewards[customerId] = { total: 0, monthly: {} };
 
-    //calculate reward points
-    const points =
+        // Calculate points based on the transaction amount
+        const points =
       (amount > 100 ? (amount - 100) * 2 : 0) +
       (amount > 50 ? Math.min(amount, 100) - 50 : 0);
 
