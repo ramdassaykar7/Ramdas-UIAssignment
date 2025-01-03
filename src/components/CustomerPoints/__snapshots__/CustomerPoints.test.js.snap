@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerPoints Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h2>
+      Customer Rewards
+    </h2>
+    <div>
+      <h3>
+        Customer ID: 1
+      </h3>
+      <p>
+        Total Points: 150
+      </p>
+      <ul>
+        <li>
+          January: 90 points
+        </li>
+        <li>
+          February: 60 points
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h3>
+        Customer ID: 2
+      </h3>
+      <p>
+        Total Points: 85
+      </p>
+      <ul>
+        <li>
+          January: 30 points
+        </li>
+        <li>
+          March: 55 points
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
